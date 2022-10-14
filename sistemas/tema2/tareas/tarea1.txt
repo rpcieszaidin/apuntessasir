@@ -1,0 +1,33 @@
+1º. Crea una máquina virtual.
+
+2º. Instala el sistema operativo Debian (puede clonarse una máquina con una instalación previa)
+
+3º. Instala un segundo disco en la máquina virtual de 2GB.
+
+4º. Sobre la consola Linux demuestra que el sistema ha reconocido que existe ese disco.
+
+5º. Crea un MBR sobre ese disco con dos particiones.
+
+6º Crea un sistema de archivos FAT en la primera partición.
+
+7º Crea un sistema de archivos ext4 en la segunda partición.
+
+8º Crea un punto de montaje de la primera partición del segundo disco en un directorio llamado "disco1"
+
+9º. Crea el fichero "hola" con el contenido "Este fichero está en la primera partición" 
+
+10º. Sin desmontar el punto de montaje anterior, crea un segundo punto de montaje de la segunda partición del segundo disco en un directorio llamado "disco2"
+
+11º, Crea dentro de ese punto de montaje un fichero "hola", con el contenido "Este fichero está en la segunda partición"
+
+12º Desmonta el directorio "disco1"
+
+13º Desmonta el directorio "disco2"
+
+14º Monta la primera partición del segundo disco en el directorio "disco2"
+
+15º Usa el programa "cat" para ver el contenido del fichero "hola"
+
+16º Desmonta el directorio "disco2"
+
+- Crea un fichero de texto que explique cada uno de los pasos.
